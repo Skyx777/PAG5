@@ -1,0 +1,55 @@
+
+
+
+  body{
+
+    background-color: black;
+    margin: 20px;
+  }
+@keyframes obg {
+
+    0% { background-color: green; color:yellow }
+    
+    25% { background-color: yellow; color:blue }
+    
+    50% { background-color: blue; color:white }
+    
+    75% { background-color: white; color: green }
+    
+    100% { background-color: green; color:yellow }
+    
+    }
+    
+#obg{padding: 20px;
+
+    background-color: green;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     text-align: center;
+    font-size: 30px;   }
+    
+    
+    
+    #obg:hover {
+
+        animation-name: obg;
+        
+        animation-duration: 2s;
+        
+        animation-iteration-count: infinite;
+        
+        }
+
+
+        #frase{
+            text-align: center;
+            font-size: 30px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: white;
+        }
+     #cora{
+        text-align: center;
+        font-size: 200px;
+         color: red;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     }
